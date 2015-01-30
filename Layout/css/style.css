@@ -1,0 +1,74 @@
+h1 {
+	font-size: 24pt;
+	margin: 0 0 0 10px;
+}
+h2 {
+	font-size: 16pt;
+	margin: 0 0 10px 20px;
+}
+h4 {
+	font-size: 10pt;
+	margin: 0;
+}
+p {
+	font-size: 8pt;
+}
+#P2 .D1 {
+	display: block;
+	width: 40%;
+}
+#P2 .D2 {
+	display: inline-block;
+	width: 40%;
+}
+#P2 .D3 {
+	display: none;
+	width: 40%;
+}
+#P3 .D {
+	width: 700px;
+	margin: 0 auto;
+}
+#P4 .D {
+	max-width: 700px;
+	margin: 0 auto;
+}
+#P5 .D1 {
+	width: 500px;
+	margin: 20px auto;
+	border-width: 1px;
+	border-style: solid;
+}
+#P5 .D2 {
+	width: 500px;
+	margin: 20px auto;
+	padding: 50px;
+	border-width: 10px;
+	border-style: solid;
+}
+#P6 .D1 {
+	width: 500px;
+	margin: 20px auto;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#P6 .D2 {
+	width: 500px;
+	margin: 20px auto;
+	border-width: 10px;
+	border-style: solid;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#P7, #P8, #P9, #P10, #P11, #P12, #P13, #P14, #P15, #P16, #P17, #P18, #P19 {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#P7 .D {
+	
+}
