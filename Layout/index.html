@@ -15,7 +15,7 @@
 	<div id="accordion">
 		<h3>Select the tabs to see the layout examples.</h3>
 		<div id="P1">
-			<h4>This is a just a placeholder for the first tab. I had a problem with the Page 16 example.  And I have a question about the Page 17 example.</h4>
+			<h4>This is a just a placeholder for the first tab. I had a problem with the Page 16 example.  I also have a question about the Page 17 example. And I am confused about how the last example on Page 18 works.</h4>
 		</div>
 		<h3>Page 2 examples</h3>
 		<div id="P2">
@@ -245,7 +245,7 @@
 				<div class="D">
 					<img src="img/funnytestquestion6.jpg">
 					<div class="S">
-					<h4>This section applies an overflow: auto and splits the image and text equally at 50% each.</h4>
+					<h4>This section applies an overflow: auto, and splits the image and text equally at 50% each. The picture gets small as the browser window is narrowed.</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, nam voluptatem et facilis blanditiis, dignissimos, iusto pariatur, ullam praesentium voluptatibus earum. Natus, laudantium! Magni dolorem, facere rem, architecto ratione sapiente.</p>
 					</div>
 				</div>
@@ -473,14 +473,59 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dolorum accusantium, aut fugit placeat facilis maiores minus provident, fugiat voluptates dignissimos atque. Asperiores non aliquid labore nihil omnis officiis ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fugit corrupti distinctio perferendis sunt, maxime excepturi, sit blanditiis magnam beatae ex recusandae rerum cum! Nobis error voluptatum ducimus quibusdam sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa minus natus ab maxime sequi sit velit dolore, earum deleniti? Optio asperiores ratione aspernatur alias pariatur architecto repellat temporibus, quia quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio tempore itaque adipisci dolor inventore reiciendis porro quod ad vitae quam vel esse, molestias? Fugiat eos ipsa earum, rem quibusdam quod.</p>
 			</div>
 		</div>
-		<h3>Page 18 examples</h3>
-		<div>
-			<div id="P18A">
-			b
+		<h3>Page 18 example 1</h3>
+		<div id="P18A">
+			<div class="C">
+				<div class="N">
+					<div>
+					<h4>The nav box has a fixed width of 200 pixels.</h4>
+						<ul>
+							<li>here</li>
+							<li>there</li>
+							<li>next</li>
+							<li>after</li>
+						</ul>
+					</div>
+				</div>
+				<div class="F">
+					<div class="S">
+					<p>These two sections are single-column flexboxes.</p>
+					</div>
+					<div class="S">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, laudantium mollitia nulla harum corporis saepe et quaerat placeat laboriosam ut asperiores. Provident quam, a. Quibusdam quos, tempora molestias placeat? Fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eaque architecto ipsam provident aliquam, ducimus aperiam harum deleniti nihil blanditiis quis amet, rem numquam perspiciatis, reiciendis explicabo. Voluptas, tempora, atque!</p>
+					</div>
+				</div>
 			</div>
-			<div id="P18B">
+		</div>
+		<h3>Page 18 example 2</h3>
+		<div id="P18B">
+			<div class="C">
+				<div class="I">
+					<p>This column is 200 pixels wide or no less than 100 pixels if there is not room for 200 pixels.</p>
+				</div>
+				<div class="N">
+					<p>This column stays at a constant 200 pixels in width.</p>
+				</div>
+				<div class="F1">
+					<p>This column fills one-third of the remaining width.</p>
+				</div>
+				<div class="F2">
+					<p>This column fills two-thirds of the remaining width.</p>
+				</div>
 			</div>
-			<div id="P18C">
+		</div>
+		<h3>Page 18 example 3</h3>
+		<div id="P18C">
+			<div class="C">
+				<div class="B">
+				<p>The inner box has a defined width of 600 pixels and is vertically-centered using Flexbox. But when I add text into the outer container it changes the layout (see below).</p>
+				</div>
+			</div>
+			<div class="C">
+			<h4>With the same width of 600 pixels for the inner box, this outside text wraps rather than encroach on the horizontal position of the inner box.</h4>
+				<div class="B">
+				<p>The default layout divides up the container space horizonatally between the outer text and the inner box in a way that I have not been able to decipher.</p>
+				</div>
 			</div>
 		</div>
 	</div>

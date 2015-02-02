@@ -295,15 +295,74 @@ p {
 	column-count: 3;
 	column-gap: 1em;
 }
-#P18A {
-
+#P18A .C {
+	display: -webkit-flex;
+	display: flex;
 }
-#P18B {
-
+#P18A .N {
+	width: 200px;
+	border-width: 1px;
+	border-style: solid;
+	font-size: 10pt;
 }
-#P18C {
-
+#P18A .F {
+	-webkit-flex: 1;
+	flex: 1;
 }
+#P18A .S {
+	border-width: 1px;
+	border-style: solid;
+}
+#P18B .C {
+	display: -webkit-flex;
+	display: flex;
+	border-width: 3px;
+	border-style: solid;
+}
+#P18B .I {
+	-webkit-flex: initial;
+	flex: initial;
+	width: 200px;
+	min-width: 100px;
+	border-width: 1px;
+	border-style: solid;
+}
+#P18B .N {
+	-webkit-flex: none;
+	flex: none;
+	width: 200px;
+	border-width: 1px;
+	border-style: solid;
+}
+#P18B .F1 {
+	-webkit-flex: 1;
+	flex: 1;
+	border-width: 1px;
+	border-style: solid;
+}
+#P18B .F2 {
+	-webkit-flex: 2;
+	flex: 2;
+	border-width: 1px;
+	border-style: solid;
+}
+#P18C .C {
+	display: -webkit-flex;
+	display: flex;
+	height: 300px;
+	border-width: 1px;
+	border-style: solid;
+	margin-bottom: 10px;
+}
+#P18C .B {
+	margin: auto;
+	width: 600px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+
+
 
 @media screen and (min-width:600px) {
 	#P14 .N {
