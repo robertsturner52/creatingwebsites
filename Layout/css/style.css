@@ -64,11 +64,258 @@ p {
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 }
-#P7, #P8, #P9, #P10, #P11, #P12, #P13, #P14, #P15, #P16, #P17, #P18, #P19 {
+#P7, #P8, #P9, #P10, #P11A, #P11B, #P12, #P13A, #P13B, #P14, #P15A, #P15B, #P16, #P17, #P18 {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 }
-#P7 .D {
-	
+#P7 .D1 {
+	position: static;
+	width: 500px;
+	border-width: 1px;
+	border-style: solid;
+}
+#P7 .D2 {
+	position: relative;
+	top: -20px;
+	left: 20px;
+	width: 500px;
+	border-width: 5px;
+	border-style: dashed;
+	background-color: white;
+}
+#P7 .D3 {
+	position: absolute;
+	width: 500px;
+	border-width: 1px;
+	border-style: solid;
+	margin-bottom: 20px;
+}
+#P7 .D4{
+	position: fixed;
+	top: 300px;
+	right: 30px;
+	width: 200px;
+	border-width: 1px;
+	border-style: solid;
+}
+#P8 {
+	position: relative;
+	border-width: 1px;
+	border-style: solid;
+}
+#P8 .N {
+	position: absolute;
+	width: 200px;
+	border-width: 1px;
+	border-style: solid;
+	font-size: 10pt;
+}
+#P8 .S {
+	margin-left: 200px;
+	border-width: 1px;
+	border-style: solid;
+}
+#P9 img {
+	float: right;
+	margin: 0 0 1em 1em;
+	width: 500px;
+}
+#P9 p {
+	font-size: 10pt;
+}
+#P10 .B {
+	float: left;
+	width: 150px;
+	height: 40px;
+	margin: 1em;
+	border-width: 1px;
+	border-style: solid;
+}
+#P10  .S {
+	border-width: 1px;
+	border-style: solid;
+}
+#P10 .D2 .S {
+	clear: left;
+}
+#P11A .D1 {
+	border-width: 3px;
+	border-style: solid;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+#P11B .D2 {
+	border-width: 3px;
+	border-style: solid;
+}
+#P11A img {
+	float: right;
+	margin: 0 0 1em 1em;
+	width: 200px;
+}
+#P11B img {
+	float: right;
+	margin: 0 0 1em 1em;
+	width: 200px;
+}
+#P12 {
+	border-width: 1px;
+	border-style: solid;
+}
+#P12 .N {
+	float: left;
+	width: 200px;
+	border-width: 1px;
+	border-style: solid;
+	font-size: 10pt;
+}
+#P12 .S {
+	margin-left: 200px;
+	border-width: 1px;
+	border-style: solid;
+}
+#P13A img {
+	float: right;
+	width: 50%;
+}
+#P13A .D {
+	border-width: 3px;
+	border-style: solid;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+#P13B  .N {
+	float: left;
+	width: 25%;
+	border-width: 1px;
+	border-style: solid;
+	font-size: 10pt;
+}
+#P13B .S {
+	margin-left: 25%;
+	border-width: 1px;
+	border-style: solid;
+}
+#P14  .N {
+	border-width: 1px;
+	border-style: solid;
+	font-size: 10pt;
+}
+#P14 .S {
+	border-width: 1px;
+	border-style: solid;
+}
+#P15A .B {
+	float: left;
+	width: 200px;
+	height: 100px;
+	margin: 1em;
+	border-width: 1px;
+	border-style: solid;
+}
+#P15A .AB {
+	border-width: 1px;
+	border-style: solid;
+	margin-bottom: 20px;	
+}
+#P15A .BA {
+	clear: left;
+	border-width: 1px;
+	border-style: solid;
+	margin-bottom: 20px;
+}
+#P15B .B {
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	margin: 1em;
+	border-width: 1px;
+	border-style: solid;
+}
+#P15B .AB {
+	border-width: 1px;
+	border-style: solid;
+	margin-bottom: 20px;
+}
+#P16A, #P16B {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#P16A .B {
+	border-width: 3px;
+	border-style: solid;
+	margin-bottom: 10px;
+}
+#P16A .N {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	border-width: 1px;
+	border-style: solid;
+	font-size: 10pt;
+}
+#P16A .C {
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
+	border-width: 1px;
+	border-style: solid;
+}
+#P16B .B {
+	border-width: 3px;
+	border-style: solid;
+	margin-bottom: 10px;
+}
+#P16B .N {
+	display: inline-block;
+	vertical-align: top;
+	width: 24%;
+	border-width: 1px;
+	border-style: solid;
+	font-size: 10pt;
+}
+#P16B .C {
+	display: inline-block;
+	vertical-align: top;
+	width: 74%;
+	border-width: 1px;
+	border-style: solid;
+}
+#P17 .TC {
+	padding: 1em;
+	border-width: 1px;
+	border-style: solid;
+	margin-top: 10px;
+	-moz-column-count: 3;
+	-moz-column-gap: 1em;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 1em;
+	column-count: 3;
+	column-gap: 1em;
+}
+#P18A {
+
+}
+#P18B {
+
+}
+#P18C {
+
+}
+
+@media screen and (min-width:600px) {
+	#P14 .N {
+		float: left;
+		width: 25%;
+	}
+	#P14 .S {
+		margin-left: 25%;
+	}
+}
+@media screen and (max-width:599px) {
+	#P14 .N li {
+		display: inline;
+	}
 }
